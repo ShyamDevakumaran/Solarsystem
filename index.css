@@ -1,0 +1,151 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #000;
+}
+
+/*NAVBAR*/
+.navbar{
+    background-image: linear-gradient(to right,hsl(0, 0%, 0%),#000000 ) !important;
+    padding: 10px !important;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+.navbar-brand span{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px;
+    color: #fff;
+    font-family: bold;
+
+}
+.navbar-brand img{
+    height: 60px;
+    width: 60px;
+    padding-left: 10px;
+}
+
+.navbar-nav li{
+    padding:  0 7px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+/*NAVBAR*/
+
+
+
+/*SOLAR*/
+
+.main_img{
+    text-align: center;
+    align-items: center;
+   background-color: #000 !important;
+}
+
+/*//SOLAR*/
+
+
+
+/*IMAGES*/
+
+.gallery-tittle {
+    font-size: 25px;
+    font-weight: 530;
+    font-family: bold;
+    border-bottom: 1.5px solid #000;
+    color: #fff;
+   margin-top: 0px;
+}
+
+/*//IMAGES*/
+
+
+
+/*PLANETS*/
+
+
+#planets{
+    padding-top: 5%;
+    padding-top: 30px;
+    padding-bottom:20px;
+     
+}
+.planets-tittle {
+    font-size: 25px;
+    font-weight: 530;
+    font-family: bold;
+    border-bottom: 1.5px solid #000;
+    margin: 10px;
+    color: #fff;
+}
+.planets-second {
+    font-size: 25px;
+    font-weight: 530;
+    font-family: bold;
+    border-bottom: 1px solid #000 transparent;
+    margin: 10px;
+}
+
+.card{
+    background: #000 !important;
+    border: none !important;
+    box-shadow: 15px 10px 10px rgba(0, 0,0, 0),
+                inset 4px 4px 10px black ;
+    border-radius: 10px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.card-body{
+        color: #fff; 
+        font-size: 15px;
+        text-align: center;
+}
+.card-title{
+    color: #fff;
+    font-family: 'Andada Pro', serif;
+    font-weight: 540;
+}
+
+/*PLANETS*/
+
+
+/* FOOTER */
+
+.footer-bottom{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+    padding: 10px ;
+   
+ }
+ .footer-bottom p{
+    color: #fff;
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+     font-family: bold;
+ }
+ .footer-bottom span{
+    color: rgb(206, 163, 22) !important;
+     text-transform: uppercase;
+     font-family: 'Andada Pro', serif;
+     font-weight: 900;
+ }
+ /* //FOOTER */
